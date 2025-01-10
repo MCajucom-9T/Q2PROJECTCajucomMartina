@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Audiowide&family=Bokor&family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cookie&family=Eagle+Lake&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+
+	<title>Q2 PROJECT</title>
+</head>
+
+<body>
+	<nav class="col-sm-12 navbar navbar-expand-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand col-sm-4" href="#"><img src="islaeats.jpeg" alt="Isla Eats" class="rounded-pill" style="width: 50px;"></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="nav nav-tabs navbar-expand-md navbar-brand col-sm-4 mx-auto justify-content-center w-100">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Homepage</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link flex-fill" href="recipes/index.html">Recipes</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="about/index.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="share/index.html">Share Recipe</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="wrapper sc col-sm-4" >
+				<form action="/search" method="get">
+		    		<input type="search"  placeholder="Search.." name="query">
+		      		<button type="submit">Submit</button>
+				</form>
+  			</div>
+		</div>
+	</nav>
+
+	<div class="container isla " id="second-container">
+		<img src="islaeats.jpeg" class="rounded-pill">
+	</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+	<div class="container" id="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="6" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="9" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+		</div>
+
+		<div class="carousel-inner">
+	    	<div class="carousel-item active">
+				<img src="champorado.jpg" class="img-thumbnail bg-warning img-fluid" alt="first slide">
+	 		<div class="carousel-caption">
+				<h3>Champorado</h3>
+				<p>Decadent, velvety chocolate rice bliss.</p>
+			</div>
+			</div>
+
+	    	<div class="carousel-item">
+				<img src="sopas.jpg" class="img-thumbnail bg-warning img-fluid" alt="second slide">
+	 		<div class="carousel-caption">
+				<h3>Sopas</h3>
+				<p>The perfect noodle dish for a cold day.</p>
+			</div>
+			</div>
+	    	
+	    	<div class="carousel-item">
+				<img src="tapa.jpg" class="img-thumbnail bg-warning" alt="slide 3">
+	 		<div class="carousel-caption">
+				<h3>Tapsilog</h3>
+				<p>Savory garlic rice, tender beef, and a perfect sunny-side-up egg.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="pinakbet.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 4">
+	 		<div class="carousel-caption">
+				<h3>Pinakbet</h3>
+				<p>Vibrant vegetable medley simmered in savory shrimp paste.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="karekare.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 5">
+	 		<div class="carousel-caption">
+				<h3>Kare-kare</h3>
+				<p>Luscious peanut stew bursting with bold, savory flavors.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="adobo.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 6">
+	 		<div class="carousel-caption">
+				<h3>Adobo</h3>
+				<p>Bold, tangy-savory stew of soy, vinegar, and garlic.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="caldereta.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 7">
+	 		<div class="carousel-caption">
+				<h3>Caldereta</h3>
+				<p>Hearty, spiced tomato stew with tender meat and rich flavors.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="sisig.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 8">
+	 		<div class="carousel-caption">
+				<h3>Sisig</h3>
+				<p>Sizzling, tangy-crispy pork with bold and zesty flavors.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="lechonkawali.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 9">
+	 		<div class="carousel-caption">
+				<h3>Lechon Kawali</h3>
+				<p>Crispy, golden pork belly with juicy, tender perfection.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="halohalo.jpg" class="img-thumbnail img-fluid bg-warning" alt="slide 10">
+	 		<div class="carousel-caption">
+				<h3>Halo-halo</h3>
+				<p>A refreshing mix of crushed ice, sweet treats, and tropical flavors.</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="maisconyelo.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 11">
+	 		<div class="carousel-caption">
+				<h3>Mais Con Yelo</h3>
+				<p>Sweet corn, creamy milk, and crushed ice in a refreshing dessert!</p>
+			</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="lecheflan.jpg" class="img-thumbnail bg-warning img-fluid" alt="slide 12">
+	 		<div class="carousel-caption container-fluid">
+				<h3>Leche Flan</h3>
+				<p>Silky caramel custard that melts in your mouth.</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	  <button class="carousel-control-prev" id="leftbtn" type="button" data-bs-target="#demo" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon"></span>
+	  </button>
+	  <button class="carousel-control-next" id="rightbtn"type="button" data-bs-target="#demo" data-bs-slide="next">
+	    <span class="carousel-control-next-icon"></span>
+	  </button>
+	</div>
+
+	<footer class="fixed-bottom">
+		<h4><a href="https://github.com/MCajucom-9T">Martina Cajucom</a> | 9-Topaz</h4>
+	</footer>
+
+</body>
+</html>

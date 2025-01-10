@@ -1,0 +1,150 @@
+body {
+	background-image: url(bg.jpeg);
+	background-size: cover;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #A1674A;
+	color: #C7AA74;
+}
+
+.navbar .nav-link {
+	font-family: "Eagle Lake", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #C7AA74;
+	font-size: 80%;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+}
+.nav-link:hover {
+	color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}
+
+#recipes {
+	color: #601700;
+	background-color: #B8886C;
+	margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+h1 {
+	font-family: "Playwrite AU SA", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+p {
+	font-family: "Alkatra", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h4 {
+	font-family: "Akaya Kanadaka", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#top {
+	background-color:#601700;
+	max-width: 300px;
+	height: auto;
+	color: #fff;
+}
+
+#food {
+	max-width: 300px;
+	min-height: 400px;
+	text-align: center;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	overflow: hidden; 
+}
+
+#food img {
+	object-fit: cover;
+}
+
+#food:hover {
+    animation: flip 0.7s ease-in-out;
+}
+
+@keyframes flip {
+	0% {
+		transform: rotateY(0deg);
+	}
+	50% {
+		transform: rotateY(180deg); 
+	}
+	100% {
+		transform: rotateY(0deg); 
+	}
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure it wraps */
+    align-items: center;
+}
+
+
+.col-sm-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#whole {
+	margin-bottom: 100px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 10px; /* Adjust spacing from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+
+}
+
+
+footer {
+	text-align: center;
+	padding: 13px;
+	margin-top: 10px;
+	font-family: "Eagle Lake", serif !important;
+	font-weight: 400;
+	font-style: normal;
+	color: #CCB281;
+	background-color: #A1674A;
+	margin-top:
+	font-size: 80%;
+}

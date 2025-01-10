@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Audiowide&family=Bokor&family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cookie&family=Eagle+Lake&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Audiowide&family=Bokor&family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cookie&family=Eagle+Lake&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Alkatra:wght@400..700&family=Audiowide&family=Bokor&family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cookie&family=Eagle+Lake&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+
+	<title>Q2 PROJECT</title>
+</head>
+
+<body>
+	<nav class="col-sm-12 navbar navbar-expand-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand col-sm-4" href="#"><img src="islaeats.jpeg" alt="Isla Eats" class="rounded-pill" style="width: 50px;"></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="nav nav-tabs navbar-expand-md navbar-brand col-sm-4 mx-auto justify-content-center w-100">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Homepage</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link flex-fill" href="../recipes/index.html">Recipes</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="../about/index.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="../share/index.html">Share Recipe</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="wrapper sc col-sm-4" >
+				<form action="/search" method="get">
+		    		<input type="search"  placeholder="Search.." name="query">
+		      		<button type="submit">Submit</button>
+				</form>
+  			</div>
+		</div>
+	</nav>
+
+	<div class="container" id="recipes">
+		<h1>Recipe Categories</h1>
+		<p>Discover a rich collection of Filipino recipes, from hearty classics to sweet treats. Celebrate the flavors of the Philippines in every dish!</p>
+	</div>
+
+	<div class="container-fluid" id="whole">
+		<div class="container col-sm-12">
+
+			<div class="row d-flex justify-content-center">
+
+				<div class="col-sm-3 mb-4">
+					<div class="card bg-danger" id="top">
+					<div class="card-body">
+					<h4 class="card-title">Breakfast</h4>
+					<p class="card-text">Rise and shine with a meal that fuels your body and warms your soul.</p>
+					</div>
+					</div>
+
+					<br>
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="champorado.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Champorado</h4>
+					<p class="card-text">Decadent, velvety chocolate rice bliss.</p>
+					<a href="champorado/index.html" class="btn btn-warning">View Recipe</a>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="sopas.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Sopas</h4>
+					<p class="card-text">The perfect noodle dish for a cold day.</p>
+					<a href="sopas/index.html" class="btn btn-warning">View Recipe</a>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="tapa.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Tapsilog</h4>
+					<p class="card-text">Savory garlic rice, tender beef, and a perfect sunny-side-up egg.</p>
+					<a href="tapsilog/index.html" class="btn btn-warning">View Recipe</a>
+		 			 </div>
+					</div>
+				</div>
+
+				<div class="col-sm-3 mb-4">
+					<div class="card bg-danger" id="top">
+					<div class="card-body">
+					<h4 class="card-title">Lunch</h4>
+					<p class="card-text">Light or hearty, a plate of goodness to refuel and refresh your afternoon.</p>
+					</div>
+					</div>
+
+					<br>
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="karekare.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Kare-Kare</h4>
+					<p class="card-text">Luscious peanut stew bursting with bold, savory flavors.</p>
+					<a href="karekare/index.html" class="btn btn-warning">View Recipe</a>
+		 			 </div>
+					</div>
+
+				<br>
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="pinakbet.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Pinakbet</h4>
+					<p class="card-text">Vibrant vegetable medley simmered in savory shrimp paste.</p>
+					<a href="pinakbet/index.html" class="btn btn-warning">View Recipe</a>
+		 			</div>
+					</div>
+
+				<br>	
+
+					<div class="card border-danger border-5" id="food">
+					<img class="card-img-top img-fluid" src="adobo.jpg" alt="Card image">
+					<div class="card-body">
+					<h4 class="card-title">Adobo</h4>
+					<p class="card-text">Bold, tangy-savory stew of soy, vinegar, and garlic.</p>
+					<a href="adobo/index.html" class="btn btn-warning">View Recipe</a>
+		 			 </div>
+					</div>
+			</div>
+
+			<div class="col-sm-3 mb-4">
+				<div class="card bg-danger" id="top">
+				<div class="card-body">
+				<h4 class="card-title">Dinner</h4>
+				<p class="card-text">A delightful gathering of flavors, perfect for unwinding after a long day.</p>
+				</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="sisig.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Sisig</h4>
+				<p class="card-text">Sizzling, tangy-crispy pork with bold and zesty flavors.</p>
+				<a href="sisig/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="lechonkawali.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Lechon Kawali</h4>
+				<p class="card-text">Crispy, golden pork belly with juicy, tender perfection.</p>
+				<a href="lechonkawali/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="caldereta.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Caldereta</h4>
+				<p class="card-text">Hearty, spiced tomato stew with tender meat and rich flavors.</p>
+				<a href="caldereta/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 mb-4">
+				<div class="card bg-danger" id="top">
+				<div class="card-body">
+				<h4 class="card-title">Dessert</h4>
+				<p class="card-text">A delightful gathering of flavors, perfect for unwinding after a long day.</p>
+				</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="halohalo.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Halo-Halo</h4>
+				<p class="card-text">A refreshing mix of crushed ice, sweet treats, and tropical flavors.</p>
+				<a href="halohalo/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="maisconyelo.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Mais Con Yelo</h4>
+				<p class="card-text">Sweet corn, creamy milk, and crushed ice in a refreshing dessert!</p>
+				<a href="maisconyelo/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+
+				<br>
+
+				<div class="card border-danger border-5" id="food">
+				<img class="card-img-top img-fluid" src="lecheflan.jpg" alt="Card image">
+				<div class="card-body">
+				<h4 class="card-title">Leche Flan</h4>
+				<p class="card-text">Silky caramel custard that melts in your mouth.</p>
+				<a href="lecheflan/index.html" class="btn btn-warning">View Recipe</a>
+		 		</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+	<footer class="fixed-bottom">
+		<h3><a href="https://github.com/MCajucom-9T">Martina Cajucom</a> | 9-Topaz</h3>
+	</footer>

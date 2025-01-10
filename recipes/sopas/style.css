@@ -1,0 +1,85 @@
+	body {
+		background-image: url(bg.jpeg);
+		background-size: cover;
+		align-items: center;
+	}
+
+	.navbar {
+		background-color: #A1674A;
+		color: #C7AA74;
+		text-align: center;
+	}
+
+	.navbar .nav-link {
+		font-family: "Eagle Lake", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #C7AA74;
+		font-size: 80%;
+	}
+	.nav-link:hover {
+		color: white;
+	}
+
+	a {
+	    color: inherit;
+	    text-decoration: underline;
+	}
+
+	a:visited {
+	    color: inherit;
+	}
+
+	a:hover {
+	    color: white;
+	}
+
+	h1 {
+		padding: 10px;
+		font-family: "Akaya Kanadaka", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: white;
+		text-align: center;
+	}
+
+	h3 {
+		font-family: "Akaya Kanadaka", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: white;
+	}
+
+	li {
+		font-family: "Alkatra", serif;
+		font-optical-sizing: auto;
+		font-weight: <weight>;
+		font-style: normal;
+		color: #C7AA74;
+	}
+
+	#content {
+		background-color: rgba(48, 21, 7, 0.8);
+		margin-top: 85px;
+		margin-bottom: 150px;
+	}
+
+	#pic {
+		width: 90%;
+		text-align: center
+	}
+
+
+
+	footer {
+		text-align: center;
+		padding: 13px;
+		margin-top: 10px;
+		font-family: "Eagle Lake", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #CCB281;
+		font-size: 100%;
+		background-color: #A1674A;
+	}
+

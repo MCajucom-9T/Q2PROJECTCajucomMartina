@@ -1,0 +1,85 @@
+body {
+	background-image: url(bg.jpeg);
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #A1674A;
+	color: #C7AA74;
+	text-align: center;
+}
+
+.navbar .nav-link {
+	font-family: "Eagle Lake", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #C7AA74;
+	font-size: 80%;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+}
+.nav-link:hover {
+	color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}
+
+#content {
+	background-color: rgba(48, 21, 7, 0.8);
+	margin-top: 50px;
+	margin-bottom: 85px;
+	color: #C7AA74;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#title {
+	color: #601700;
+	background-color: #B8886C;
+	margin-top: 85px;
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+h1 {
+	font-family: "Playwrite AU SA", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+#content {
+	background-color: rgba(48, 21, 7, 0.8);
+	margin-top: 85px;
+	margin-bottom: 150px;
+	color: ;
+}
+
+#submit {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 13px;
+	margin-top: 10px;
+	font-family: "Eagle Lake", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #CCB281;
+	font-size: 100%;
+	background-color: #A1674A;
+}
